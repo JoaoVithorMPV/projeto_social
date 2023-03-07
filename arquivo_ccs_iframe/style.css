@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+div img {
+  width: 100vw;
+}
+
+#youtube {
+  background: darkred;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+#youtube:hover {
+  background: red;
+  cursor: pointer;
+}
+
+#github {
+  background: rgb(0, 0, 0);
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+#github:hover {
+  background: rgb(73, 73, 73);
+  cursor: pointer;
+}
+
+#instagram {
+  background: rgb(172, 0, 51);
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+#instagram:hover {
+  background: rgb(255, 0, 140);
+  cursor: pointer;
+}
+
+#twitter {
+  background: rgb(44, 0, 204);
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+#twitter:hover {
+  background: rgb(0, 47, 255);
+  cursor: pointer;
+}
+
+#facebook {
+  background: rgb(36, 0, 167);
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+#facebook:hover {
+  background: rgb(0, 39, 211);
+  cursor: pointer;
+}
